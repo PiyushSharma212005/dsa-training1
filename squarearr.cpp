@@ -1,0 +1,15 @@
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main(){
+    int arr[5] = {4,1,0,3,10};
+    int  n = 5;
+    for(int i = 0;i<n;i++){
+        arr[i]=arr[i]*arr[i];
+    }
+    sort(arr, arr + n);
+
+    for(int i = 0; i < n; i++){
+        cout << arr[i] << " ";
+    }
+}

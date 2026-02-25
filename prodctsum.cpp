@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int n;
     cout<<"enter the value of n"<<endl;
-    cin>>n; 
+     cin>>n; 
     int product=1;
     int sum=0;
     while(n!=0){
